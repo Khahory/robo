@@ -837,11 +837,61 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1656162942399	geckodriver	INFO	Listening on 127.0.0.1:51057
-1656162945425	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcd33a\\rust_mozprofileKZbl6u"
+1656163388316	Marionette	INFO	Stopped listening on port 50960
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+"-profile" "C:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcd33a\\rust_mozprofileKZbl6u"
 1656162945869	Marionette	INFO	Marionette enabled
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcd33a\\rust_mozprofileKZbl6u\\search.json.mozlz4", (void 0)))
 1656162948091	Marionette	INFO	Listening on port 51065
 1656162948599	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1656163387223	Marionette	INFO	Stopped listening on port 51065
+1656163721242	geckodriver	INFO	Listening on 127.0.0.1:64582
+1656163724274	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcd026\\rust_mozprofile5IB0em"
+1656163724590	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcd026\\rust_mozprofile5IB0em\\search.json.mozlz4", (void 0)))
+1656163726696	Marionette	INFO	Listening on port 64590
+1656163726943	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1656163736409	Marionette	INFO	Stopped listening on port 64590
+[Parent 9504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+1656168154808	geckodriver	INFO	Listening on 127.0.0.1:54777
+1656168157834	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcf722\\rust_mozprofileC0wirj"
+1656168158183	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcf722\\rust_mozprofileC0wirj\\search.json.mozlz4", (void 0)))
+1656168160671	Marionette	INFO	Listening on port 54786
+1656168161028	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1656168200231	Marionette	INFO	Stopped listening on port 54786
+1656168362193	geckodriver	INFO	Listening on 127.0.0.1:54888
+1656168365243	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcd5e2\\rust_mozprofileJBr9MR"
+1656168365679	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcd5e2\\rust_mozprofileJBr9MR\\search.json.mozlz4", (void 0)))
+1656168368430	Marionette	INFO	Listening on port 54896
+1656168368922	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1656168410181	Marionette	INFO	Stopped listening on port 54896
+1656168418328	geckodriver	INFO	Listening on 127.0.0.1:54992
+1656168421359	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcf34a\\rust_mozprofileOKex6k"
+1656168421692	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcf34a\\rust_mozprofileOKex6k\\search.json.mozlz4", (void 0)))
+1656168424120	Marionette	INFO	Listening on port 55000
+1656168424536	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1656168440424	Marionette	INFO	Stopped listening on port 55000
+1656168450130	geckodriver	INFO	Listening on 127.0.0.1:55086
+1656168453179	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcd276\\rust_mozprofileJFybyS"
+1656168453507	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcd276\\rust_mozprofileJFybyS\\search.json.mozlz4", (void 0)))
+1656168455852	Marionette	INFO	Listening on port 55094
+1656168456336	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
