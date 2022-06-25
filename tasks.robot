@@ -3,6 +3,7 @@ Documentation    robot que hace un login
 Library          RPA.Browser.Selenium    auto_close=${False}
 Library          RPA.HTTP
 Library          RPA.Excel.Files
+Library          RPA.PDF
 
 *** Keywords ***
 Open intranet robot
@@ -41,6 +42,15 @@ Collect the result                            #el path donde se guarda
     Screenshot        css:div.sales-summary    ${OUTPUT_DIR}${/}sales_sumary.png
 
 
+Export table as PDF
+    #puede que la informacion aun este cargando, asi que pondremos una especie de espera
+    Wait Until Element Is Visible    id:sales-results
+
+    # aqui obtenermos el html puro y lo guardamos en esta variable (despues lo convertimos en un PDF)
+    ${sales_result_html}=        Get Element Attribute    id:sales-results    outerHTML
+    Html To Pdf    ${sales_result_html}    ${OUTPUT_DIR}${/}sales_pdf.pdf
+    
+    
 *** Tasks ***
 Open browser and Log in
     Open intranet robot
@@ -48,3 +58,4 @@ Open browser and Log in
     Download the excel file
     Fill the form using the data from Excel file
     Collect the result
+    Export table as PDF

@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.7.5 on win32)" generated="20220625 09:23:53.510" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.7.5 on win32)" generated="20220625 13:00:49.093" rpa="false" schemaversion="3">
 <suite id="s1" name="Robot Interactive Console" source="c:\Users\kha\.vscode\extensions\robocorp.robotframework-lsp-0.48.2\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
 <test id="s1-t1" name="Default Task/Test" line="5">
 <kw name="Interpreter Main Loop" library="MainLoop">
-<status status="PASS" starttime="20220625 09:23:53.555" endtime="20220625 09:23:55.455"/>
+<kw name="Open intranet robot">
+<msg timestamp="20220625 13:00:50.093" level="FAIL">No keyword with name 'Open intranet robot' found.</msg>
+<status status="FAIL" starttime="20220625 13:00:50.092" endtime="20220625 13:00:50.093"/>
 </kw>
-<status status="PASS" starttime="20220625 09:23:53.554" endtime="20220625 09:23:55.455"/>
+<kw name="Log in">
+<status status="NOT RUN" starttime="20220625 13:00:50.095" endtime="20220625 13:00:50.095"/>
+</kw>
+<kw name="Download the excel file">
+<status status="NOT RUN" starttime="20220625 13:00:50.100" endtime="20220625 13:00:50.101"/>
+</kw>
+<kw name="Fill the form using the data from Excel file">
+<status status="NOT RUN" starttime="20220625 13:00:50.105" endtime="20220625 13:00:50.105"/>
+</kw>
+<kw name="Collect the result">
+<status status="NOT RUN" starttime="20220625 13:00:50.108" endtime="20220625 13:00:50.108"/>
+</kw>
+<status status="PASS" starttime="20220625 13:00:49.143" endtime="20220625 13:00:51.042"/>
+</kw>
+<status status="PASS" starttime="20220625 13:00:49.142" endtime="20220625 13:00:51.042"/>
 </test>
-<status status="PASS" starttime="20220625 09:23:53.512" endtime="20220625 09:23:55.457"/>
+<status status="PASS" starttime="20220625 13:00:49.098" endtime="20220625 13:00:51.043"/>
 </suite>
 <statistics>
 <total>
