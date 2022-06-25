@@ -37,6 +37,9 @@ Fill the form using the data from Excel file
         Fill and submit the form for one person    ${sales_rep}        
     END
 
+Collect the result                            #el path donde se guarda
+    Screenshot        css:div.sales-summary    ${OUTPUT_DIR}${/}sales_sumary.png
+
 
 *** Tasks ***
 Open browser and Log in
@@ -44,3 +47,4 @@ Open browser and Log in
     Log in
     Download the excel file
     Fill the form using the data from Excel file
+    Collect the result
