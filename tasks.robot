@@ -2,6 +2,7 @@
 Documentation    robot que hace un login
 Library          RPA.Browser.Selenium    auto_close=${False}
 Library          RPA.HTTP
+Library          RPA.Excel.Files
 
 *** Keywords ***
 Open intranet robot
@@ -17,11 +18,24 @@ Log in
 Download the excel file
     Download    https://robotsparebinindustries.com/SalesData.xlsx
 
-File and submit the form for one person
-    Input Text    firstname    Angel
-    Input Text    lastname    Maria
-    Select From List By Value    salestarget    70000
-    Input Text    salesresult    1000
+Fill and submit the form for one person
+    [Arguments]    ${sales_rep}
+    Input Text                    firstname      ${sales_rep}[First Name]
+    Input Text                    lastname       ${sales_rep}[Last Name]
+    Select From List By Value     salestarget    ${sales_rep}[Sales Target]
+    Input Text                    salesresult    ${sales_rep}[Sales]
+    Click Button    Submit
+
+Fill the form using the data from Excel file
+    Open Workbook     SalesData.xlsx
+    # createa var
+    ${sales_reps}=    Read Worksheet As Table    header=true
+    Close Workbook
+
+    # create a cycle for lines
+    FOR    ${sales_rep}    IN    @{sales_reps}
+        Fill and submit the form for one person    ${sales_rep}        
+    END
 
 
 *** Tasks ***
@@ -29,4 +43,4 @@ Open browser and Log in
     Open intranet robot
     Log in
     Download the excel file
-    File and submit the form for one person
+    Fill the form using the data from Excel file
