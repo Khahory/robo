@@ -1,14 +1,14 @@
 *** Settings ***
 Documentation    robot que hace un login
-Library          RPA.Browser.Selenium    auto_close=${FALSE}
+Library          RPA.Browser.Selenium    auto_close=${False}
 
 
 *** Keywords ***
-Abrir pagina web
+Open intranet robot
     Open Available Browser    https://robotsparebinindustries.com/#/
 
 
 *** Tasks ***
 Ingresal a la pagina web
-    Abrir pagina web
+    Open intranet robot
 
