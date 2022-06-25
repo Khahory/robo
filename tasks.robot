@@ -49,6 +49,10 @@ Export table as PDF
     # aqui obtenermos el html puro y lo guardamos en esta variable (despues lo convertimos en un PDF)
     ${sales_result_html}=        Get Element Attribute    id:sales-results    outerHTML
     Html To Pdf    ${sales_result_html}    ${OUTPUT_DIR}${/}sales_pdf.pdf
+
+Logout and close
+    Click Button    Log out
+    Close Browser
     
     
 *** Tasks ***
@@ -59,3 +63,5 @@ Open browser and Log in
     Fill the form using the data from Excel file
     Collect the result
     Export table as PDF
+    # try catch, si algo de arriba falla, pues ejecuta...     Logout and close
+    [Teardown]    Logout and close
