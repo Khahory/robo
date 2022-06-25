@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.7.5 on win32)" generated="20220624 20:36:24.536" rpa="true" schemaversion="3">
+<suite id="s1" name="Tasks" source="c:\Users\kha\PycharmProjects\robo\tasks.robot">
+<test id="s1-t1" name="Ingresal a la pagina web" line="12">
+<kw name="Abrir pagina web">
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/#/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<msg timestamp="20220624 20:36:25.615" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20220624 20:36:25.643" level="INFO">Created download root directory: C:\Users\kha\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20220624 20:36:25.643" level="INFO">Created symlink directory: C:\Users\kha\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20220624 20:36:25.644" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20220624 20:36:28.627" level="INFO">Created download root directory: C:\Users\kha\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20220624 20:36:28.627" level="INFO">Created symlink directory: C:\Users\kha\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20220624 20:36:28.649" level="INFO">Error, unable to read current browser version</msg>
+<msg timestamp="20220624 20:36:28.649" level="INFO">Failed to parse compatible version: Error, unable to read current browser version</msg>
+<msg timestamp="20220624 20:36:29.529" level="INFO">Error, unable to read current browser version</msg>
+<msg timestamp="20220624 20:36:29.529" level="INFO">Failed to parse compatible version: Error, unable to read current browser version</msg>
+<msg timestamp="20220624 20:36:29.865" level="INFO">Skipping download. File C:\Users\kha\AppData\Local\robocorp\webdrivers\chrome\103.0.5060.53\chromedriver_win32.zip already on filesystem.</msg>
+<msg timestamp="20220624 20:36:29.888" level="INFO">Error, unable to read current browser version</msg>
+<msg timestamp="20220624 20:36:29.888" level="INFO">Failed to parse compatible version: Error, unable to read current browser version</msg>
+<msg timestamp="20220624 20:36:31.101" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20220624 20:36:33.176" level="INFO">Creating an instance of the Firefox WebDriver.</msg>
+<msg timestamp="20220624 20:36:33.188" level="INFO">Created download root directory: C:\Users\kha\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20220624 20:36:33.189" level="INFO">Created symlink directory: C:\Users\kha\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20220624 20:36:33.189" level="INFO">Creating an instance of the Firefox WebDriver.</msg>
+<msg timestamp="20220624 20:36:38.900" level="INFO">Created Firefox browser with arguments: </msg>
+<msg timestamp="20220624 20:36:38.900" level="INFO" html="true">&lt;p&gt;Attempted combinations:&lt;/p&gt;&lt;div class="doc"&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Browser&lt;/th&gt;&lt;th&gt;Download&lt;/th&gt;&lt;th&gt;Error&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Chrome&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Chrome&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;Execution terminated by signal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Firefox&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;Message: 'geckodriver' executable needs to be in PATH. 
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Firefox&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</msg>
+<msg timestamp="20220624 20:36:38.901" level="INFO">Opening url 'https://robotsparebinindustries.com/#/'</msg>
+<status status="PASS" starttime="20220624 20:36:25.615" endtime="20220624 20:36:39.965"/>
+</kw>
+<status status="PASS" starttime="20220624 20:36:25.614" endtime="20220624 20:36:39.966"/>
+</kw>
+<status status="PASS" starttime="20220624 20:36:25.613" endtime="20220624 20:36:39.966"/>
+</test>
+<doc>robot que hace un login</doc>
+<status status="PASS" starttime="20220624 20:36:24.545" endtime="20220624 20:36:39.968"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tasks">Tasks</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
